@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orchestrapy"
+version = "0.1.0"
+authors = [{name = "Serin Thomas", email = "serin.thomas@outlook.com"}]
+description = "Contract-first Agentic AI framework"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0",
+    "pydantic-ai>=0.0.1",
+    "fastapi>=0.100.0",
+]
