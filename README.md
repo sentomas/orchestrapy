@@ -23,4 +23,4 @@ If you are starting a new project and want to hit the ground running with a pre-
 
 ```bash
 pip install cookiecutter
-cookiecutter gh:YourUsername/orchestrapy-template
+cookiecutter gh:sentomas/orchestrapy-template
